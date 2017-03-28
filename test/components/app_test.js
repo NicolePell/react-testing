@@ -8,7 +8,7 @@ describe('App', () => {
     app = renderComponent(App)
   })
 
-  it('show a comment box', () => {
+  it('shows a comment box', () => {
     expect(app.find('.comment-box')).to.exist
   })
 })
