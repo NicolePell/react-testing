@@ -31,7 +31,8 @@ describe('CommentBox', () => {
     })
 
     it('clears the from when submitted', () => {
-
+      commentBox.simulate('submit')
+      expect(commentBox.find('textarea')).to.have.value('')
     })
   })
 })
