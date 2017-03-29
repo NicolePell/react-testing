@@ -13,4 +13,9 @@ describe('CommentList', () => {
   it('shows an <li> for each comment', () => {
     expect(commentList.find('li').length).to.equal(2)
   })
+
+  it('shows each comment that is provided', () => {
+    expect(commentList).to.contain('Prow scuttle')
+    expect(commentList).to.contain('Sail ho shrouds')
+  })
 })
