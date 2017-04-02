@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// import { connect } from 'react-redux'
 
 export default class CommentBox extends Component {
   constructor(props) {
@@ -28,3 +29,7 @@ export default class CommentBox extends Component {
     )
   }
 }
+
+// mapDispatchTo
+
+// export default connect()(CommentBox)
